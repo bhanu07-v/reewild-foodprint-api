@@ -27,10 +27,10 @@ Instead of getting stuck, I pivoted to a practical solution: a **mocked API**. T
 
 ## Example API Requests (Postman Screenshots)
 ### 1. Dish Name Input (JSON)
-
+![Postman Request for /estimate](reewild_estimate.png)
 
 ### 2. Image Input (form-data)
-
+![Postman Request for /estimate/image](reewild_image_estimate.png)
 
 ## Future Improvements
 - **Real AI Integration:** Replace mock responses with real AI calls to Azure AI Services.
