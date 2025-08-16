@@ -20,7 +20,22 @@ Instead of getting stuck, I pivoted to a practical solution: a **mocked API**. T
 - **Swagger UI:** Automatically generated documentation for easy testing.
 - **Mocked Responses:** Used to demonstrate functionality without a live API key.
 
+## Setup & Testing
+1.  **Clone the repository.**
+2.  **Run the API:** In your terminal, run `dotnet run`.
+3.  **Test with Postman:** Use Postman to test both endpoints. The screenshots below demonstrate a successful `200 OK` response for each.
+
+## Example API Requests (Postman Screenshots)
+### 1. Dish Name Input (JSON)
+
+
+### 2. Image Input (form-data)
+
+
 ## Future Improvements
-- **Real AI Integration:** Replace mock responses with real AI calls.
-- **Data Persistence:** Integrate a database to cache previous estimates.
-- **Error Handling & Security:** Implement more robust error handling and security measures.
+- **Real AI Integration:** Replace mock responses with real AI calls to Azure AI Services.
+- **Data Persistence:** Integrate a database (e.g., MongoDB) to cache frequently requested data.
+- **Authentication:** Implement a basic authentication layer.
+
+---
+**Author:** Bhanuteja Valaboju
